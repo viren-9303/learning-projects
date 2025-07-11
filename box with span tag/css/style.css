@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+span{
+    width: 320px;
+    display: inline-block;
+    text-align: justify;
+    background-color: aqua;
+    border: 5px solid red;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 20px;
+}
+
+.b1{
+    border-inline-end: 50px;
+}
+
+.b2{
+    border-inline-start: 50px;
+}

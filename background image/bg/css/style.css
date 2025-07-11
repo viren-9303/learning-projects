@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: ;
+}
+
+.i1{
+    background-image: repeating-linear-gradient(90deg, red, yellow);
+    height: 500px;
+    width: 500px;
+}
+
+.i2{
+    height: 500px;
+    width: 800px;
+    background-image: radial-gradient(circle, orange, white, red);
+}
+
+.i3{
+   
+    height: 500px;
+    width: 500px;
+        background-image: radial-gradient(circle, orange, olive, green);
+}
+
+.i4{
+    
+    height: 500px;
+    width: 500px;
+    background-image: conic-gradient(black, brown, green);
+ }

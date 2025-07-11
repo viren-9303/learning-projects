@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+}
+
+.d{
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.d1{
+background-image: url(https://4kwallpapers.com/images/wallpapers/bugatti-tourbillon-1920x1080-17195.jpg);
+}
+
+.d2{
+background-image: url(https://www.motorcarsofjackson.com/wp-content/uploads/2020/04/720s-website.jpg);
+}
+
+.d3{
+background-image: url(https://wallpapers.com/images/hd/ultramodern-lamborghini-aventador-supercar-rl9t17t329cvkh20.jpg), url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUIIH3WCe9_C2ZDmLL16TTeIbzBBJJZhUaag&s);
+background-blend-mode: luminosity;
+background-position: bottom;
+}
+
+.d4{
+background-image: url(https://media.moddb.com/images/downloads/1/74/73019/Super_Cars_HD_Wallpaper.jpg);
+}
+
+.d5{
+background-image: url(https://www.hdcarwallpapers.com/walls/super_sports_cars-HD.jpg);
+}
+
+.d6{
+background-image: url(https://images.alphacoders.com/499/499540.jpg);
+}
+
+ .card2{
+    width: 500px;
+    height: 600px;
+    background-color: aqua;
+
+
+}
+
+
+.card2 .card2-img{
+    width: 80%;
+    margin: 0 auto;
+}
+
+img{
+    width: 100%;
+}
+

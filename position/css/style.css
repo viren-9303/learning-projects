@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.parentoffix{
+    width: 50%;
+    height: 500px;
+    background-color: aqua;
+    position: relative;
+    left: 50px;
+    overflow-y: scroll;
+}
+
+.boxfix{
+    width: 20%;
+    height: 50px;
+    background-color: black;
+    position: sticky;
+    bottom: 10px;
+}
+
+.absolute{
+    position: absolute;
+    right: 50px;
+    bottom: 50px;
+    background-color: pink;
+    width: 200px;
+    height: 200px;
+}
+
+.fixed{
+    position: fixed;
+    top: 0;
+    height: 50px;
+    width: 100%;
+    background-color: chocolate;
+}
+
+.signup{
+    height: 100px;
+    width: 300px;
+    border: 2px solid yellow;
+
+    
+}
+
+.btn{
+    height: 150px;
+    width: 400px;
+    position: relative;
+}
+
+.fixedsignup{
+    height: 40px;
+    width: 100px;
+    background-color: blue;
+    position: absolute;
+    right: 100px;
+    top: 30px;
+
+
+}
+

@@ -1,0 +1,19 @@
+.d1 p{
+    color: blue;
+}
+
+.d2 .d2-c2 {
+    background-color: aqua;
+}
+
+.d1 .d1-c1 ~ p{
+    font-style: italic;
+}
+
+.d2 {
+    margin-top: 50px;
+}
+
+.d2 > p{
+    background-color: gray;
+}

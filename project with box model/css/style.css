@@ -1,0 +1,156 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+.w33{
+    width: 33.33%;
+    height: ;
+}
+
+.container{
+  display: flex;
+  max-width: 1200px;
+  padding: 20px;
+  overflow: hidden;
+  margin: 0 auto;
+  margin-top: 50px;
+  background-color: bisque;
+}
+
+.card {
+
+  margin: 15px;
+  background-color: rgb(167, 113, 113);
+  border: solid;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset,
+              rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset,
+              rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset,
+              rgba(0, 0, 0, 0.06) 0px 2px 1px,
+              rgba(0, 0, 0, 0.09) 0px 4px 2px,
+              rgba(0, 0, 0, 0.09) 0px 8px 4px,
+              rgba(0, 0, 0, 0.09) 0px 16px 8px,
+              rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
+img {
+  width: 100%;
+  padding: 5%;
+
+}
+
+p {
+  text-align: justify;
+  margin-bottom: 10px;
+}
+
+.price {
+  font-weight: bold;
+  font-size: 1.2rem;
+  display: block;
+  margin: 10px 0;
+}
+
+a {
+  display: block;
+  background-color: rgb(199, 206, 61);
+  text-decoration: none;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 5px;
+  font-weight: bold;
+  color: #000;
+}
+
+.ratings {
+  text-align: center;
+  margin: 10px 0;
+}
+
+.s {
+  color: blue;
+}
+
+.n {
+  color: grey;
+}
+
+.desc{
+ padding: 20px;
+}
+
+/* add to cartL */
+
+.cart{
+  max-width: 1200px;
+  height: 600px;
+  padding: 5px;
+  overflow: hidden;
+  margin: 0 auto;
+  margin-top: 50px;
+  background-color: rgb(234, 237, 232);
+}
+
+.d-inline-flex{
+  width: 40%;
+
+  display: inline-flex;
+  border: dotted;
+  padding: 10px;
+  border-radius: 20px;
+}
+
+.form-lable, .form-input{
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  text-align: right;
+  
+}
+
+h1 {
+  border: solid 5px rgb(228, 227, 236);
+  font-style: oblique;
+  margin: 10px 0;
+  font-family: cursive;
+  border-radius: 50px;
+}
+
+input{
+box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+
+select{
+box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+
+}
+
+.button{
+  width: 30%;
+  text-align: center;
+  margin: 5px;
+  
+}
+
+.s1{
+  width: 50%;
+}
+
+.details{
+  max-width: 100%;
+  margin-top: 20px;
+  padding: 10px;
+  border-radius: 10px;
+  border: solid rgb(163, 203, 203);
+  text-align: justify;
+box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+
+}
+

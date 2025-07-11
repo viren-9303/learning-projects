@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 84%;
+    background-color: rgb(218, 69, 69);
+    margin: 0 auto;
+    padding: 5px;
+    height: 800px;
+}
+
+.d-flex{
+    display:flex;
+    flex-wrap: wrap;
+}   
+
+.w-class{
+    width: 24%;
+    border: dotted beige 2px;
+    margin: 5px;
+  
+}
+
+img{
+    width:100%;
+        box-shadow: rgba(21, 71, 165, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+        height: 100%;
+    object-fit: cover;
+    padding: 5px;
+
+}
+
+.img{
+    height: 245px;
+
+}
+
+

@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.box{
+    height: 100px;
+    width: 500px;
+    text-align: center;
+    padding: 30px;
+    position: relative;
+    text-align: center;
+    
+}
+
+.signup{
+    width: 70%;
+    height: 50px;
+    padding: 10PX;
+    border-radius: 20px;
+    background-color: silver;
+
+}
+
+.btn{
+    height: 30px;
+    width: 80px;
+    position: absolute;
+    right: 112px;
+    bottom: 29px;
+    background-color: blanchedalmond;
+    text-align: center;
+    text-decoration: none;
+    padding: 5px;
+
+}
+
+.name{
+    text-align: center;
+}
+
+.name h2{
+    font-size: 80px;
+    display: inline-block;
+    position: relative;
+}
+
+.name h2::before{
+    content: " ";
+    height: 3px;
+    width: 100px;
+    background-color: orangered;
+    position: absolute;
+    top: 36px;
+    left: -97px;
+
+}
+
+
+.name h2::after{
+    content: " ";
+    height: 3px;
+    width: 100px;
+    background-color: orangered;
+    position: absolute;
+    top: 36px;
+    left: 240px;
+
+}

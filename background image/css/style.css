@@ -1,0 +1,20 @@
+.b1 {
+    background-image: url(https://i.pinimg.com/736x/ac/f5/18/acf518431f509c1c31091e27f86a7e65.jpg);
+    
+    height: 700px;
+    color: whitesmoke;
+}
+
+.b2 {
+    background-image: url(../image/bgt.jpg);
+    height: 600px;
+    background-position: center;
+    background-size: 100% 100%;
+    color: blueviolet;
+}
+
+.icon{
+    height: 30px;
+    width: 40px;
+    color: whitesmoke;
+}

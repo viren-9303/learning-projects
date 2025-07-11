@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+    /* without box-sizing padding will change width of boxes so if you want to keep same width of box give it border-sizing */
+    text-align: justify;
+}
+
+.box1{
+
+    width: 350px;
+    border-style: groove;
+    padding: 30px;
+    border-color: rgb(255, 157, 0);
+    background-color: bisque;
+    border-width: 20px;
+    border-top-left-radius: 20px;
+}
+
+.box2{
+
+    width: 350px;
+    border-style: solid;
+    margin: 20px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    padding: 10px;
+    border-color: rgb(131, 214, 148);
+    border-inline-color: rgb(131, 131, 107);
+}
+
+.box3{
+
+    width: 350px;
+    border-style: dashed;
+    padding: 20px;
+    background-color: brown;
+    border-radius: 40px;
+    border-width: 5px;
+    border-right-style: dotted;
+}
+
+.box4{
+
+    width: 350px;
+    border-style: groove;
+    padding: 20px;
+    margin: 10px;
+    border-bottom-left-radius: 20px;
+    border-width: 30px;
+}
+.b{
+    display: inline-block;
+}
